@@ -3,7 +3,7 @@ package logp;
 option java_package = "com.kvijayender.logp";
 option java_outer_classname = "LogP";
 
-message log {
+message Log {
     required int32 id = 1;
     enum message_type {
         DEBUG = 0;
