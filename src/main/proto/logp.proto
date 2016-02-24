@@ -1,0 +1,15 @@
+package logp;
+
+option java_package = "com.kvijayender.logp";
+option java_outer_classname = "LogP";
+
+message log {
+    required int32 id = 1;
+    enum message_type {
+        DEBUG = 0;
+        INFO = 1;
+        ERROR = 2;
+    }
+    optional message_type type = 2;
+    optional string message = 3;
+}
