@@ -1,6 +1,6 @@
 # Protobuf-trial
 
-Very basic protobuf setup and file-io along with kafka-io
+Very basic protobuf setup and file-io with an example of streaming
 Look at the git commits to see the progressive steps.
 
 ### Objectives
